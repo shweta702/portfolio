@@ -70,3 +70,31 @@ section#projects h2 {
   margin-top: 5px;
   color: #444;
 }
+
+section#contact {
+  margin-bottom: 60px;
+}
+
+section#contact h2 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 6px;
+  max-width: 300px;
+}
+
+section#contact p {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  color: #333;
+}
+
+section#contact a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+section#contact a:hover {
+  text-decoration: underline;
+}
