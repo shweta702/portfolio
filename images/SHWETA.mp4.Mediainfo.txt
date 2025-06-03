@@ -1,0 +1,65 @@
+General
+Complete name                            : C:\Users\sweta\OneDrive\Desktop\portfolio\portfolio\images\SHWETA.mp4
+Format                                   : MPEG-4
+Format profile                           : Base Media / Version 2
+Codec ID                                 : mp42
+File size                                : 28.6 MiB
+Duration                                 : 17s 367ms
+Overall bit rate mode                    : Variable
+Overall bit rate                         : 13.8 Mbps
+Encoded date                             : UTC 2025-05-28 13:58:40
+Tagged date                              : UTC 2025-05-28 13:58:54
+©TIM                                     : 00:00:00:00
+©TSC                                     : 30
+©TSZ                                     : 1
+
+Video
+ID                                       : 1
+Format                                   : AVC
+Format/Info                              : Advanced Video Codec
+Format profile                           : Main@L4.1
+Format settings, CABAC                   : Yes
+Format settings, ReFrames                : 4 frames
+Codec ID                                 : avc1
+Codec ID/Info                            : Advanced Video Coding
+Duration                                 : 17s 367ms
+Bit rate                                 : 13.6 Mbps
+Width                                    : 360 pixels
+Height                                   : 640 pixels
+Display aspect ratio                     : 0.563
+Frame rate mode                          : Constant
+Frame rate                               : 30.000 fps
+Color space                              : YUV
+Chroma subsampling                       : 4:2:0
+Bit depth                                : 8 bits
+Scan type                                : Progressive
+Bits/(Pixel*Frame)                       : 1.970
+Stream size                              : 28.2 MiB (98%)
+Language                                 : English
+Encoded date                             : UTC 2025-05-28 13:58:43
+Tagged date                              : UTC 2025-05-28 13:58:43
+Color primaries                          : BT.709
+Transfer characteristics                 : BT.709
+Matrix coefficients                      : BT.709
+
+Audio
+ID                                       : 2
+Format                                   : AAC
+Format/Info                              : Advanced Audio Codec
+Format profile                           : LC
+Codec ID                                 : 40
+Duration                                 : 17s 367ms
+Source duration                          : 17s 408ms
+Bit rate mode                            : Variable
+Bit rate                                 : 192 Kbps
+Maximum bit rate                         : 522 Kbps
+Channel(s)                               : 2 channels
+Channel positions                        : Front: L R
+Sampling rate                            : 48.0 KHz
+Compression mode                         : Lossy
+Stream size                              : 401 KiB (1%)
+Source stream size                       : 402 KiB (1%)
+Language                                 : English
+Encoded date                             : UTC 2025-05-28 13:58:43
+Tagged date                              : UTC 2025-05-28 13:58:43
+

@@ -1,0 +1,16 @@
+VideoCleaner: version 5.8
+Report generated on Wednesday, 05/28/25 21:01:21 local time
+______________________________________________
+C:\Users\sweta\OneDrive\Desktop\portfolio\portfolio\images\SHWETA.mp4
+
+
+
+"Enhancement Transparency"        = 2  (20%)
+
+Compare Original to Enhanced
+  "OFF / Side / Atop / Sweep"     = 3  (Sweep: sweeping view of original and enhanced)
+
+______________________________________________
+
+http://VideoCleaner.com
+OpenSource Forensic Video-Image Enhancement & Authentication Software

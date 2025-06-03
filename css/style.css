@@ -1,23 +1,28 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background: #fff;
-  color: #222;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #fff6f8; /* soft strawberry-ish pink */
+  color: #333;
   line-height: 1.6;
   padding: 40px 20px;
   max-width: 700px;
   margin: 0 auto;
+  box-sizing: border-box;
 }
+
+/* Navigation */
 nav {
-  background: #f8f8f8;
-  padding: 12px 0;
+  background: #fff0f3; /* lighter pink */
+  padding: 16px 0;
   position: sticky;
   top: 0;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 2px solid #ff6f91; /* strawberry pink */
   z-index: 1000;
+  box-shadow: 0 2px 8px rgb(255 111 145 / 0.2);
+  border-radius: 0 0 10px 10px;
 }
 
 nav ul {
@@ -26,115 +31,195 @@ nav ul {
   justify-content: center;
   margin: 0;
   padding: 0;
-  gap: 40px;
+  gap: 50px;
 }
 
 nav ul li a {
   text-decoration: none;
-  color: #0066cc;
-  font-weight: 600;
-  font-size: 1rem;
-  padding: 4px 8px;
+  color: #d81e5b; /* deep strawberry pink */
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 6px;
 }
 
-nav ul li a:hover {
-  text-decoration: underline;
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #d81e5b;
+  color: #fff;
+  outline: none;
 }
 
-
+/* Header */
 header {
-  margin-bottom: 60px;
+  margin-bottom: 70px;
   text-align: center;
 }
 
 header h1 {
-  font-weight: 700;
-  font-size: 2.8rem;
+  font-weight: 900;
+  font-size: 3rem;
   margin-bottom: 10px;
+  color: #b3124a; /* dark berry */
+  text-shadow: 1px 1px 2px #ffced7;
 }
 
 header p {
-  font-size: 1.25rem;
-  color: #555;
-  font-weight: 400;
+  font-size: 1.3rem;
+  color: #7a4e57;
+  font-weight: 500;
+  font-style: italic;
 }
 
-section#about h2 {
-  font-weight: 600;
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 6px;
-  max-width: 300px;
+/* Section Headings */
+section h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #ff6f91;
+  padding-bottom: 8px;
+  max-width: 320px;
+  color: #b3124a;
+  letter-spacing: 1px;
 }
 
+/* About */
 section#about p {
-  font-size: 1rem;
-  color: #333;
-}
-section#projects {
-  margin-bottom: 60px;
+  font-size: 1.1rem;
+  color: #5c3a45;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.75;
 }
 
-section#projects h2 {
-  font-weight: 600;
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 6px;
-  max-width: 300px;
+/* Projects */
+section#projects {
+  margin-bottom: 80px;
 }
 
 .project {
-  margin-bottom: 25px;
+  margin-bottom: 30px;
+  background: #fff0f3;
+  padding: 20px 18px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgb(255 111 145 / 0.15);
+  transition: box-shadow 0.3s ease;
+}
+
+.project:hover {
+  box-shadow: 0 6px 20px rgb(255 111 145 / 0.3);
 }
 
 .project a {
-  font-weight: 600;
-  color: #0066cc;
+  font-weight: 700;
+  color: #d81e5b;
   text-decoration: none;
+  font-size: 1.2rem;
 }
 
-.project a:hover {
+.project a:hover,
+.project a:focus {
   text-decoration: underline;
 }
 
 .project p {
-  margin-top: 5px;
-  color: #444;
-}
-
-section#contact {
-  margin-bottom: 60px;
-}
-
-section#contact h2 {
-  font-weight: 600;
-  font-size: 1.6rem;
-  margin-bottom: 20px;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 6px;
-  max-width: 300px;
-}
-
-section#contact p {
-  margin-bottom: 12px;
+  margin-top: 10px;
+  color: #7a4e57;
   font-size: 1rem;
-  color: #333;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+/* Contact */
+section#contact {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+section#contact h1 {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #b3124a;
 }
 
 section#contact a {
-  color: #0066cc;
-  text-decoration: none;
+  margin: 0 15px;
+  display: inline-block;
+  transition: transform 0.3s ease, filter 0.3s ease;
 }
 
-section#contact a:hover {
-  text-decoration: underline;
+section#contact a:hover,
+section#contact a:focus {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 6px #d81e5b);
+  outline: none;
 }
+
+section#contact img {
+  width: 60px;
+  height: 60px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgb(216 30 91 / 0.3);
+  background-color: #fff;
+}
+
+/* Footer */
 footer {
   text-align: center;
-  font-size: 0.85rem;
-  color: #888;
-  padding: 20px 0 10px 0;
-  border-top: 1px solid #eee;
+  font-size: 0.9rem;
+  color: #a27a86;
+  padding: 25px 0 10px 0;
+  border-top: 1px solid #ffced7;
+  font-style: italic;
+  letter-spacing: 0.03em;
+}
+
+/* Container for tech icons */
+.tech-icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40%;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+/* Each icon box */
+.tech-icons .icon {
+  text-align: center;
+  max-width: 100px;
+  cursor: default;
+}
+
+.tech-icons img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(255, 111, 145, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.1) rotate(10deg);
+}
+
+/* Caption text below each icon */
+.tech-icons p {
+  margin-top: 10px;
+  font-weight: 600;
+  color: #b3124a;
+  font-size: 1rem;
+}
+
+/* Animation keyframes */
+@keyframes fadeSlideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

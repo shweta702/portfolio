@@ -1,0 +1,11 @@
+VideoCleaner: version 5.8
+Report generated on Wednesday, 05/28/25 21:05:44 local time
+______________________________________________
+
+
+
+
+"Enhancement Transparency"        = 2  (20%)
+
+Compare Original to Enhanced
+  "OFF / Side / Atop / Sweep"     = 3  (Sweep: sweeping view of original and enhanced)
